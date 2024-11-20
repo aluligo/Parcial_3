@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final de JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d32f2f;
+      color: white;
+      padding: 20px;
+    }
+    img {
+      margin-top: 20px;
+      width: 300px;
+      border-radius: 15px;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+    .resultados {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 800px;
+      margin: 20px auto;
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      padding: 20px;
+      border: 1px solid #dcdcdc;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .resultados h3 {
+      color: #d32f2f;
+      border-bottom: 2px solid #d32f2f;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #d32f2f;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #9a0000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Proyecto Final de JavaScript</h1>
+    <p>Practicando bucles y métodos de cadenas</p>
+    <p>Presentado por:</p>
+    <p> Alexander Luligo Ruiz</p>
+    <p> Dayana Lopez</p>
+    <p> Rosby Paz</p>
+    <p> Yordy Fajardo</p>
+  </header>
+
+  <img src="https://img.freepik.com/vector-gratis/letras-feliz-navidad-brillantes-confeti-brillantes-adornos_1262-16808.jpg" alt="Imagen de Navidad">
+
+  <main id="ejercicios">
+    <h2>Ejercicios</h2>
+    <button onclick="ejecutarEjerciciosBucles()">Ejercicio 1: Bucles</button>
+    <button onclick="ejecutarEjerciciosMetodos()">Ejercicio 2: Bucles y Métodos</button>
+    <button onclick="ejecutarEjerciciosCadenas()">Ejercicio 3: Métodos y Cadenas</button>
+    <div class="resultados" id="resultados"></div>
+  </main>
+
+  <footer>
+    &copy; 2024 Fundación Universitaria de Popayán. Todos los derechos reservados.
+  </footer>
+
+ 
+  <script src="resources/js/bucles.js"></script>
+  <script src="resources/js/metodos.js"></script>
+  <script src="resources/js/cadenas.js"></script>
+</body>
+</html>
